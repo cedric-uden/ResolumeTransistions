@@ -28,24 +28,27 @@
           overflow: hidden;
           background-color: #f1f1f1;
         }
+        
+        video {
+            object-fit: fill;
+        }
     </style>
     
     
     
     <body>
         
-        <p>Add Transition</p>
-            <button type="button" class="collapsible">Add</button>
-        
-            <div class="content">
-                <video width="320" height="240" controls>
-                    <source src="files/add.mkv" type="video/mp4">
-                </video>
-            </div>
+        <button type="button" class="collapsible">Add</button>
+
+        <div class="content">
+            <video width="320" height="240" controls>
+                <source src="files/add.mkv" type="video/mp4">
+            </video>
+        </div>
         
  
         
-        <video width="320" height="240" controls>
+        <video controls>
             <source src="files/LoRez.mkv" type="video/mp4">
         </video>
         
